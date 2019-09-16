@@ -1,0 +1,89 @@
+body{
+    background: #ffffff;
+    color:black;
+}
+.App{
+    
+        margin: 0 auto;
+        width: 800px; 
+        position: relative;
+        top:200px;
+        left:30px;
+        border: solid 3px black;
+        padding: 80px 70px 70px 60px;
+        text-align: center;
+   
+}
+input{
+    width:250px;
+    height:30px;
+}
+.add{
+    width:50px;
+    height:34px;
+    background: black;
+    color:white;
+}
+li{
+    font-size: 3 rem;
+    color:rgb(250, 250, 250);
+    font-weight: bold;
+    list-style: none;
+}
+#del{
+    background:red;
+    color:white;
+    margin:10px;
+}
+
+@media(max-width:1028px){
+    .App{
+        left:7px;
+        top:100px;
+}
+}
+@media(max-width:768px){
+    .App{
+        width:500px;
+        top:100px;
+    }
+}
+
+@media(max-width:425px){
+    .App{
+        width:250px;
+        left:2px;
+    }
+    .add{
+        position:relative;
+        left:125px;
+        top:-35px;
+    }
+    input{
+        width:200px;
+    }
+}
+@media(max-width:375px){
+    .App{
+        width:200px;
+        left:2px;
+    }
+    input{
+        width:170px;
+    }
+    .add{
+     
+        left:112px;
+        
+    }
+}
+@media(max-width:320px){
+    .App{
+        width:160px;
+        left:2px;
+    } 
+    input{
+       position:relative;
+       left:-8px;
+    }
+}
